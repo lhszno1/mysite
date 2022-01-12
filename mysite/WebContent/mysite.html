@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keyword" content="html, css, javascript">
+<meta name="viewport" content="width=device-width, initial-scal=1.0">
+<link type="text/css" rel="stylesheet" href="css/mysite.css">
+<title>HeeSeong</title>
+<style type="text/css">
+@media only screen and (max-width:800px) {
+	body {
+		background-color: skyblue;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+@font-face {
+	font-family: 'flo';
+	src: url('fonts/IniyaDisplay-ow0Ra.otf');
+}
+* {
+	font-family: 'flo';
+}
+div#like>nav#dog{
+	background-image: url('images/like_dog.jpg');	
+}
+div#like>nav#cat{
+	background-image: url('images/like_cat.jpg');		
+}
+div#like>nav#music{
+	background-image: url('images/like_music.jpg');		
+}
+div#like>nav#movie{
+	background-image: url('images/like_movie.jpg');		
+}
+div#like>nav#food{
+	background-image: url('images/like_food.jpg');		
+}
+</style>
+</head>
+<body>
+<header>
+<h2 id="m1"><a href="mysite.html">top</a></h2>
+<div id="h0">
+	<div id="h1">
+		<h1><a href="mysite.html">HeeSeong</a></h1>
+	</div>
+	<div class="menubar">
+		<ul>
+			<li><a href="mysite.html">Main</a></li>
+				<li class="drop">
+				<a href="#" class="dbtn">Intro</a>
+				<div class="dcont">
+					<a href="#intro1">Name</a>
+					<a href="#intro2">Age</a>
+					<a href="#intro3">Gender</a>
+					<a href="#intro4">Address</a>
+					<a href="#intro5">ETC</a>
+				</div>
+			</li>
+			<li class="drop">
+				<a href="#" class="dbtn">Like</a>
+				<div class="dcont">
+					<a href="#dog">DOG</a>
+					<a href="#cat">CAT</a>
+					<a href="#music">Music</a>
+					<a href="#movie">Movie</a>
+					<a href="#food">Food</a>
+				</div>
+			</li>
+			<li class="drop">
+				<a href="#" class="dbtn">Site</a>
+				<div class="dcont">
+					<a href="https://blog.naver.com/lhszno1" target="_black">blog</a>
+					<a href="https://www.instagram.com/barbielnb/" target="_black">instagram</a>
+					<a href="https://www.facebook.com/aseefg" target="_black">facebook</a>
+				</div>
+			</li>
+			<li class="drop">
+				<a href="#" class="dbtn">Q&A</a>
+				<div class="dcont">
+					<a href="#t11">Time Table</a>
+					<a href="#q1">question</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+	</div>
+</header>
+<section>
+	<div id="s1">
+		<img src="images/music.jpg">
+	</div>
+	<div id="s_box1">
+			<div class="image_slider">
+				<!-- 여기에 슬라이더 넣기 -->
+				<input type="radio" name="pas" id="pos1" checked>
+				<input type="radio" name="pas" id="pos2" >
+				<input type="radio" name="pas" id="pos3" >
+				<input type="radio" name="pas" id="pos4" >
+				<input type="radio" name="pas" id="pos5" >
+				<ul>
+					<li><img src="images/s_dog.jpg" width="720" height="450"></li>
+					<li><img src="images/s_cat.jpg" width="720" height="450"></li>
+					<li><img src="images/s_music.jpg" width="720" height="450"></li>
+					<li><img src="images/s_movie.jpg" width="720" height="450"></li>	
+					<li><img src="images/s_food.jpg" width="720" height="450"></li>			
+				</ul>
+				<p class="pos">
+					<label for="pos1"></label> <!-- 숫자 지울것 (확인용) -->
+					<label for="pos2"></label>
+					<label for="pos3"></label>
+					<label for="pos4"></label>
+					<label for="pos5"></label>
+				</p>
+			</div>
+			<div id="t1">
+			<div class="t_banner1"><a href="https://www.naver.com" target="_black"><img src="images/naver.png"></a></div>
+			<div class="t_banner2"><a href="http://www.daum.net" target="_black"><img src="images/daum.png"></a></div>
+			<div class="t_banner3"><a href="http://www.icia.co.kr" target="_black"><img src="images/icia.png"></a></div>
+			<div class="t_banner4"><a href="http://www.melon.com" target="_black"><img src="images/melon.png"></a></div>
+			<div class="t_banner5"><a href="http://www.google.co.kr" target="_black"><img src="images/google.png"></a></div>
+			</div>
+	</div>
+		<div id="s_box6">
+			<div><img src="images/intro.jpg" ></div>
+			<div><img src="images/logo.png" >
+				<p>Intro</p>
+				<p id="intro1">Name ... 이희성</p>
+				<p id="intro2">Age ...34</p>
+				<p id="intro3">Gender ...남자</p>
+				<p id="intro4">Address ...인천 미추홀구</p>
+			</div>
+			<div id="intro5"><img src="images/intro2.jpg" ></div>			
+		</div>
+	<div id="like">
+		<nav id="dog"><h1>dog</h1>
+		<p>dog is... has been selectively bred over millennia for various behaviors,<br> sensory capabilities, and physical attributes.<br> Dog breeds vary widely in shape, size, and color. <br>They perform many roles for humans, <br>such as hunting, herding, pulling loads, protection, <br>assisting police and the military, companionship, <br>therapy, and aiding disabled people. <br>This influence on human society has given them <br>the sobriquet of "man's best friend."</p>
+		</nav>
+		
+		<nav id="cat"><h1>cat</h1>
+		<p>cat is... a domestic species of small carnivorous mammal. <br>It is the only domesticated species in the family Felidae<br> and is often referred to as the domestic cat <br>to distinguish it from the wild members of the family.</p>
+		</nav>
+		<nav id="music"><h1>music</h1>
+		<p>music is... the art of arranging sounds in time through the <br>elements of melody, harmony, rhythm, and timbre.<br> It is one of the universal cultural aspects of all human societies. <br>General definitions of music include common <br>elements such as pitch (which governs melody and harmony), <br>rhythm (and its associated concepts tempo, meter, and articulation), <br>dynamics (loudness and softness), <br>and the sonic qualities of timbre and texture <br>(which are sometimes termed the "color" of a musical sound).</p>
+		</nav>
+		<nav id="movie"><h1>movie</h1>	
+		<p>movie is... A film, also called a movie, motion picture or moving picture,<br> is a work of visual art used to simulate experiences that communicate ideas, stories, <br>perceptions, feelings, beauty, or atmosphere through <br>the use of moving images. <br>These images are generally accompanied by sound, and more rarely, <br>other sensory stimulations. <br>The word "cinema", short for cinematography, <br>is often used to refer to filmmaking and the film industry, <br>and to the art form that is the result of it.</p>
+		</nav>
+		<nav id="food"><h1>food</h1>
+		<p>food is... Street food in South Korea has traditionally been seen as a part <br>of popular culture in Korea. <br>Historically, street food mainly included foods such <br>as Eomuk, Bungeo-ppang and Tteok-bokki. <br>Street food has been sold through many types of retail <br>outlet, with new ones being developed over time. <br>Recently, street food has seen a popular resurgence in South Korea, <br>such as at the Night Market at Hangang Park, <br>which is called "Bamdokkaebi Night Market"</p>
+		</nav>	
+	</div>	
+		<h1 id="t11">time table</h1>
+	<hr>
+	<table>
+		<tr style="background-color: black">
+			<th> </th>
+			<th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th>
+			<th>금</th>
+			<th>토</th>
+		</tr>
+		<tr>
+			<th style="background-color: black">9시</th>
+			<td rowspan="2" style="background-color: yellow">Java</td>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">html</td>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">DB</td>
+			<td></td>
+						
+		</tr>
+		<tr>
+			<th style="background-color: black">10시</th>
+			<td></td>
+			<td></td>
+			<td></td>
+					
+		</tr>
+		<tr>
+			<th style="background-color: black">11시</th>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">CSS</td>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">Java</td>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">DB</td>			
+		</tr>
+		<tr>
+			<th style="background-color: black">12시</th>
+			<td></td>
+			<td></td>
+			<td></td>		
+		</tr>
+		<tr>
+			<th style="background-color: black">13시</th>
+			<td colspan="6" style="background-color: brown">점심시간</td>			
+		</tr>
+		<tr>
+			<th style="background-color: black">14시</th>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">Java</td>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">DB</td>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">Html</td>			
+		</tr>
+		<tr>
+			<th style="background-color: black">15시</th>
+			<td></td>
+			<td></td>
+			<td></td>		
+		</tr>
+		<tr>
+			<th style="background-color: black">16시</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>		
+		</tr>
+		<tr>
+			<th style="background-color: black">17시</th>
+			<td rowspan="2" style="background-color: yellow">DB</td>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">CSS</td>
+			<td></td>
+			<td rowspan="2" style="background-color: yellow">Java</td>
+			<td></td>			
+		</tr>
+		<tr>
+			<th style="background-color: black">18시</th>
+			<td></td>
+			<td></td>
+			<td></td>			
+		</tr>
+				
+	</table>
+		<div id="q1">
+			<h1>question</h1>
+			<hr>
+			<form action="">
+				<fieldset id="field">
+					<legend>question</legend>
+					<label for="n">name</label> <input type="text" name="name" id="n1"><br><br>
+					<label for="a">address</label> <input type="text" name="addr" id="n2"><br><br> 
+					<label for="p">phone</label> <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br><br>
+					<input type="submit" value="submit">
+				</fieldset>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<div id="f1">
+			<div id="f2"><img id="i1" src="images/logo.png">
+				<nav class="f3">
+					<ul>
+						<li>about us</li>
+						<li>guide</li>
+						<li>contact us</li>
+						<li>facebook</li>
+						<li>instagram</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div id="f4">
+			<div class="f5">
+				<address>incheon, Korea</address>
+				<address>010-9231-9163</address>
+				<p>hosting by hs</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
